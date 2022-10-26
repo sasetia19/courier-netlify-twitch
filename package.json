@@ -1,6 +1,6 @@
 {
   "name": "courier-netlify-twitch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Netlify function to accept Twitch EventSub webhooks and send notifications using Courier",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,6 @@
   "dependencies": {
     "@trycourier/courier": "^2.2.0",
     "twitch": "^4.5.5",
-    "twitch-auth": "^4.5.5"
+    "twitch-auth": "^4.5.6"
   }
 }
